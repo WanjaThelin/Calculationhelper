@@ -77,11 +77,10 @@
     "id": 7,
     "title": "1.12",
     "Uppgift": "Vid ett vattenkraftverk ligger dammen långt från turbinen. I detta fall leds vatten i ett långt rör från dammen till turbinstationen. Vattnet som strömmar in i turbinen har hastigheten 20 m/s och efter turbinen är hastigheten i princip försumbar eftersom rördiametern gjorts väldigt stor där. Tryckskillnaden mellan turbinens in- och utlopp är liten och höjdskillnaden är försumbar. Beräkna det arbete per kg vatten som kan erhållas från turbinen om alla processer antas vara reversibla.",
-    "Lösning": "Arbetet per kg vatten som kan erhållas från turbinen är 200 J/kg. Detta beräknas genom förändringen i kinetisk energi: W = (V₂² - V₁²)/2 = (0² - 20²)/2 = -200 J/kg.",
+    "Lösning": "Arbetet per kg vatten som kan erhållas från turbinen är 200 J/kg.",
     "Tips": [
-      "Använd energiprincipen för strömmande vätskor genom en turbin.",
       "Eftersom tryckskillnaden och höjdskillnaden är försumbar, fokusera på förändringen i kinetisk energi.",
-      "Beräkna arbetet per kg som skillnaden i kinetisk energi: W = (V₂² - V₁²)/2.",
+      "Beräkna arbetet per kg som skillnaden i kinetisk energi: epsilon = (V₂² - V₁²)/2.",
       "Eftersom V₂ är försumbar, blir arbetet W = -(V₁²)/2 = -200 J/kg."
     ]
   }
