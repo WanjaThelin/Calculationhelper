@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "title": "1.7",
     "Uppgift": "Vid kompression av en gas i en cylinder visar sig trycket variera enligt p=1*10^-6*V^-2 där p är trycket i bar och V är volymen i m³. Beräkna volymändringsarbetet för att komprimera gasen från volymen 1 dm³ till 0,5 dm³.",
     "Lösning": "-100 Nm",
     "Tips": [
@@ -9,6 +11,8 @@
     ]
   },
   {
+ "id":2,
+    "title": "1.8a",
     "Uppgift": "En instängd luftmängd undergår en tillståndsförändring vid vilken tillståndet ändras från 2 bar och 0,3 m ^ 3 till 7 bar och 0,05 m ^ 3 Under tillståndsförändringen varierar gasens tryck och volym enligt sambandet p*V^n = konstant. Bestäm:a) Bestäm värdet på exponenten n.",
     "Lösning": "Exponenten n är cirka 0,7.",
     "Tips": [
@@ -18,6 +22,8 @@
     ]
   },
   {
+"id":3,
+    "title": "1.8b",
     "Uppgift": "b) Bestäm det arbete som omsätts under tillståndsförändringen.",
     "Lösning": "Arbetet som omsätts är cirka 83,1 kNm.",
     "Tips": [
