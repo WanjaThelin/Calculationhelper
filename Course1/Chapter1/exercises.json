@@ -1,0 +1,12 @@
+[
+  {
+    "Uppgift": "Vad är summan av 2 och 3?",
+    "Lösning": "5",
+    "Tips": ["Tänk på addition.", "2 plus 3."]
+  },
+  {
+    "Uppgift": "Vilken är huvudstaden i Sverige?",
+    "Lösning": "Stockholm",
+    "Tips": ["Det är den största staden i Sverige.", "Kungafamiljen bor här."]
+  }
+]
