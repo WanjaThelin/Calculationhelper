@@ -99,12 +99,12 @@
     ]
   },
 
-  [
+  
   {
     "id": 9,
     "title": "1.14",
     "Uppgift": "En pump levererar vatten från en sjö till ett vattentorn. Flödet genom pumpen är 30 dm³/s. Tryckskillnaden mellan pumpens ut- och inlopp är 5 bar. Ändringar i vattnets temperatur och i vattnets potentiella och kinetiska energier kan antas vara försumbara. Pumpens driveffekt är 21 kW. Vattnet kan betraktas som inkompressibelt med densiteten 1 000 kg/m³. Beräkna pumpens isentropiska verkningsgrad, definierad som den ideala effekten dividerad med den verkliga effekten.",
-    "Lösning": "Pumpens isentropiska verkningsgrad är cirka **71,4%**",
+    "Lösning": "Pumpens isentropiska verkningsgrad är cirka 71,4%",
     "Tips": [
       "Titta på ekvation 2.45 och kom ihåg att det nu alltså bara är trycket som ändras.",
       "dv=0 så det är bara andra termen som är relevant",
@@ -113,7 +113,7 @@
       "Den isentropiska verkningsgraden beräknas som ηₛ = (P_ideal / P_verklig) × 100%."
     ]
   }
-]
+
 
 
 
