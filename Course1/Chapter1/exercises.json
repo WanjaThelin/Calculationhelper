@@ -10,6 +10,7 @@
       "Beräkna integralen och omvandla enheterna för att få arbetet i Joule."
     ]
   },
+  
   {
  "id":2,
     "title": "1.8a",
@@ -21,6 +22,7 @@
       "Använd formeln n = ln(p1/p2) / ln(V2/V1) och sätt in de givna värdena."
     ]
   },
+  
   {
 "id":3,
     "title": "1.8b",
