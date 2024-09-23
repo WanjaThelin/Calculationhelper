@@ -61,7 +61,7 @@
   "id": 6,
   "title": "1.11",
   "Uppgift": "I en älv har man byggt en damm. Höjdskillnaden mellan vattenytan i dammen och älven nedanför dammen är 15 m. Genom att installera en vattenturbin vid dammen kan man producera elkraft. Beräkna den maximala effekt som idealt kan erhållas från vattenturbinen om vattenflödet genom turbinen är 1000 m³/min. Redogör för förenklande antaganden.",
-  "Lösning": "2,45 MW,
+  "Lösning": "2,45 MW",
   "Tips": [
     "Antag två punkter för energibalansen där hastigheten är 0.",
     "Temperaturen är konstant och därmed även entalpin och den inre energin.",
