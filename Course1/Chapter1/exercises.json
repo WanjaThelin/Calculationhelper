@@ -86,18 +86,35 @@
   },
 
   {
-    "id": 13,
+    "id": 8,
     "title": "1.13",
     "Uppgift": "En pump levererar kontinuerligt ett volymflöde av 50 liter/s. Före pumpen är rördiametern 15 cm, efter pumpen är rördiametern 18 cm och höjdskillnaden mellan in- och utlopp i rören är 100 m. Trycket vid både in- och utlopp är 1 bar och vattnets temperatur är konstant och lika med 20 °C. Vattnet kan betraktas som inkompressibelt med densiteten 1 000 kg/m³. Beräkna den erforderliga pumpeffekten om pumpen antas vara reversibel.",
     "Lösning": "Den erforderliga pumpeffekten är cirka 48,9 kW.",
     "Tips": [
-      "Titta på ekvation 2.45 och kom ihåg att trck och volym är konstant.",
+      "Titta på ekvation 2.45 och kom ihåg att tryck och volymitet är konstant.",
       "Beräkna tekniskt arbete per kg vatten: eps_t = (w₂² - w₁²)/2 + gΔz.",
       "Bestäm hastigheterna före och efter pumpen genom att använda kontinuitetsekvationen och rörens tvärsnittsareor.",
       "Beräkna massflödet genom att multiplicera volymflödet med vattnets densitet.",
       "Multiplicera förändringen i mekanisk energi per kg med massflödet för att få den erforderliga pumpeffekten."
     ]
+  },
+
+  [
+  {
+    "id": 9,
+    "title": "1.14",
+    "Uppgift": "En pump levererar vatten från en sjö till ett vattentorn. Flödet genom pumpen är 30 dm³/s. Tryckskillnaden mellan pumpens ut- och inlopp är 5 bar. Ändringar i vattnets temperatur och i vattnets potentiella och kinetiska energier kan antas vara försumbara. Pumpens driveffekt är 21 kW. Vattnet kan betraktas som inkompressibelt med densiteten 1 000 kg/m³. Beräkna pumpens isentropiska verkningsgrad, definierad som den ideala effekten dividerad med den verkliga effekten.",
+    "Lösning": "Pumpens isentropiska verkningsgrad är cirka **71,4%**",
+    "Tips": [
+      "Titta på ekvation 2.45 och kom ihåg att det nu alltså bara är trycket som ändras.",
+      "dv=0 så det är bara andra termen som är relevant",
+      "Omvandla tryckskillnaden från bar till Pascal för att få korrekta enheter.",
+      "Multiplicera med massflödet för att få idealt behov",
+      "Den isentropiska verkningsgraden beräknas som ηₛ = (P_ideal / P_verklig) × 100%."
+    ]
   }
+]
+
 
 
 ]
