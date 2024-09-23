@@ -1,12 +1,28 @@
 [
   {
-    "Uppgift": "Vad är summan av 2 och 3?",
-    "Lösning": "5",
-    "Tips": ["Tänk på addition.", "2 plus 3."]
+    "Uppgift": "Vid kompression av en gas i en cylinder visar sig trycket variera enligt p=1*10^-6*V^-2 där p är trycket i bar och V är volymen i m³. Beräkna volymändringsarbetet för att komprimera gasen från volymen 1 dm³ till 0,5 dm³.",
+    "Lösning": "-100 Nm",
+    "Tips": [
+      "Kom ihåg att arbetet vid kompression kan beräknas med W = ∫p(V)dV.",
+      "Sätt in uttrycket för trycket p(V) = 1*10^-6 * V⁻² och integrera mellan de givna volymerna.",
+      "Beräkna integralen och omvandla enheterna för att få arbetet i Joule."
+    ]
   },
   {
-    "Uppgift": "Vilken är huvudstaden i Sverige?",
-    "Lösning": "Stockholm",
-    "Tips": ["Det är den största staden i Sverige.", "Kungafamiljen bor här."]
+    "Uppgift": "En instängd luftmängd undergår en tillståndsförändring vid vilken tillståndet ändras från 2 bar och 0,3 m ^ 3 till 7 bar och 0,05 m ^ 3 Under tillståndsförändringen varierar gasens tryck och volym enligt sambandet p*V^n = konstant. Bestäm:a) Bestäm värdet på exponenten n.",
+    "Lösning": "Exponenten n är cirka 0,7.",
+    "Tips": [
+      "Använd sambandet p1 * V1^n = p2 * V2^n för att lösa ut n.",
+      "Ta naturliga logaritmer på båda sidor av ekvationen.",
+      "Använd formeln n = ln(p1/p2) / ln(V2/V1) och sätt in de givna värdena."
+    ]
+  },
+  {
+    "Uppgift": "b) Bestäm det arbete som omsätts under tillståndsförändringen.",
+    "Lösning": "Arbetet som omsätts är cirka 83,1 kNm.",
+    "Tips": [
+      "För en polytrop process kan arbetet beräknas med W = (p2 * V2 - p1 * V1) / (1 - n).",
+      "Kom ihåg att omvandla trycken till Pascal (1 bar = 100 000 Pa) för att få korrekta enheter."
+    ]
   }
 ]
