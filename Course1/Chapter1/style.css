@@ -1,0 +1,22 @@
+/* Exercise List */
+.exercise-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exercise-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.exercise-item:hover {
+  background-color: #e0e0e0;
+}
+
+.exercise-item.selected {
+  background-color: #d0d0d0;
+  font-weight: bold;
+}
