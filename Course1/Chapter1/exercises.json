@@ -30,7 +30,7 @@
       "För en polytrop process kan arbetet beräknas med W = (p2 * V2 - p1 * V1) / (1 - n).",
       "Kom ihåg att omvandla trycken till Pascal (1 bar = 100 000 Pa) för att få korrekta enheter."
     ]
-  }
+  },
 
   {
   "id":4,
@@ -42,6 +42,32 @@
     "Använd formeln W = (p₁ + p₂)/2 * (v₂ - v₁).",
     "Konvertera trycken från bar till kPa för att få enheter i kJ/kg när du multiplicerar med volymen i m³/kg.",
     "Beräkna arbetet: W = [(100 kPa + 400 kPa)/2] * (1,5 m³/kg - 4 m³/kg) = -625 kJ/kg.",
+  ]
+},
+
+  {
+  "id":5,
+  "title": "1.10b",
+  "Uppgift": "En reversibel tillståndsförändring i ett slutet system sker enligt en rät linje i ett p-v-diagram från begynnelsetillståndet (p₁ = 1 bar, v₁ = 4 m³/kg, h₁ = 2500 kJ/kg) till sluttillståndet (p₂ = 4 bar, v₂ = 1,5 m³/kg, h₂ = 3300 kJ/kg). Beräkna per massenhet av mediet i systemet:\n\nb) värmeutbytet.",
+  "Lösning": "Värmeutbytet per massenhet är -25 kJ/kg.",
+  "Tips": [
+    "Använd termodynamikens första huvudsats: Q = ΔU + W.",
+    "Beräkna den inre energin för varje tillstånd med u = h - p*v.",
+    "Beräkna förändringen i inre energi: ΔU = (u₂ - u₁) = (3300 kJ/kg - 600 kJ/kg) - (2500 kJ/kg - 400 kJ/kg) = 600 kJ/kg.",
+    "Använd Q = ΔU + W för att få värmeutbytet: Q = 600 kJ/kg + (-625 kJ/kg) = -25 kJ/kg."
+  ]
+},
+
+  {
+  "id":6,
+  "title": "1.11",
+  "Uppgift": "I en älv har man byggt en damm. Höjdskillnaden mellan vattenytan i dammen och älven nedanför dammen är 15 m. Genom att installera en vattenturbin vid dammen kan man producera elkraft. Beräkna den maximala effekt som idealt kan erhållas från vattenturbinen om vattenflödet genom turbinen är 1000 m³/min. Redogör för förenklande antaganden.",
+  "Lösning": "2,45 MW",
+  "Tips": [
+    "Antag två punkter för energibalansen där hastigheten är 0.",
+    "Temperaturen är konstant och därmed även entalpin och den inre energin.",
+    "Använd formeln Et = ρ * g * h * volymflödet.",
+    "Omvandla vattenflödet från m³/min till m³/s för att få Watt."
   ]
 }
 
