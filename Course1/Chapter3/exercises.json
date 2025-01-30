@@ -11,6 +11,65 @@
       "Sätt in de absoluta trycken i formeln V₂ = (P₁ / P₂) * V₁ för att beräkna det nya volymflödet.",
       "Utför beräkningen: V₂ = (0.91325 bar / 8.01325 bar) * 1000 m³/h ≈ 114 m³/h."
     ]
+  },
+  {
+    "id": 2,
+    "title": "Ö30 a)",
+    "Uppgift": "Luft består huvudsakligen av 78 volym-% kvävgas...",
+    "Lösning": "28,96 kg/kmol",
+    "Tips": [
+      "Medelmolmassan beräknas som en volymvägd summa av komponenternas molmassa.",
+      "Använd formeln: M_medel = (0,78 × 28) + (0,21 × 32) + (0,01 × 40)."
+    ]
+  },
+{
+    "id": 3,
+    "title": "Ö30 b)",
+    "Uppgift": "Beräkna masskoncentrationerna...",
+    "Lösning": "Kvävgas: 75,4%; Syrgas: 23,2%; Argon: 1,4%",
+    "Tips": [
+      "Masskoncentration = (volymfraktion × molmassa) / medelmolmassa.",
+      "Beräkna först massan av varje gaskomponent i 1 kmol luft: N₂: 0,78 × 28 = 21,84 kg; O₂: 0,21 × 32 = 6,72 kg; Ar: 0,01 × 40 = 0,4 kg.",
+      "Beräkna den totala massan och dividera varje gastyps massa med totala massan"
+    ]
   }
-
+  {
+    "id": 4,
+    "title": "Ö38 a)",
+    "Uppgift": "Beräkna hur mycket värmeenergi som åtgår...",
+    "Lösning": {
+      "Konstant tryck": "60,4 kJ",
+      "Konstant volym": "43,2 kJ"
+    },
+    "Tips": [
+      "För konstant tryck: Använd Q_p = m × cp × ΔT.",
+      "För konstant volym: Beräkna först cv med cp - cv = R.",
+      "R = R_universell / M",
+      "Använd sedan Q_v = m × cv × ΔT."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ö38 b)",
+    "Uppgift": "Beräkna hur mycket värmeenergi som åtgår...",
+    "Lösning": {
+      "Konstant tryck": "252 kJ",
+      "Konstant volym": "252 kJ"
+    },
+    "Tips": [
+      "För vätskor är cp ≈ cv, så samma värme krävs oavsett process.",
+      "Använd Q = m × c × ΔT för båda fallen."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Ö40",
+    "Uppgift": "Luften har vid 0 °C följande frihetsgrader...",
+    "Lösning": "1003 J/(kg·K)",
+    "Tips": [
+      "Använd frihetsgraderna för att beräkna molär värmekapacitet (Cp) för varje gas: Cp = (f/2 + 1) × R_M",
+      "Beräkna blandningens molära Cp som en volymvägd summa: Cp_mix = 0,78×Cp(N₂) + 0,21×Cp(O₂) + 0,01×Cp(Ar).",
+      "Omvandla till specifik värmekapacitet (cp) genom att dividera med medelmolmassan (28,96 kg/kmol): cp = Cp_mix / M_medel."
+    ]
+  }
 ]
