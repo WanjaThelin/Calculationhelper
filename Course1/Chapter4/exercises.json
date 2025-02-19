@@ -49,10 +49,10 @@
       "T från ekvation 4.17 i FS",
       "Volymitet: v₂ = RT₂/p₂",
       "Tekniska arbetet från ekvation 4.20 i FS",
-	  "cv från ekvation 3.25 i FS"
+	  "cv från ekvation 3.25 i FS",
       "qr från ekv. 4.21 i FS."
     ]
-  }
+  },
   {
     "id": 16,
     "title": "53",
@@ -67,9 +67,9 @@
       "Total specifik arbete: w_total = 2·w (två steg med samma tryckförhållande).",
       "Effektbehov: P = massflöde·w_total."
     ]
-  }
+  },
   {
-    "id": 16,
+    "id": 17,
     "title": "56",
     "Uppgift": "En kompressor levererar luftflödet 0,2 kg/s. Luftens tillstånd före kompressorn är 20 °C och 1 bar och tillståndet efter kompressorn är 230 °C och 8 bar. Från kompressorn bortförs värmeeffekten 20 kW. Luften kan anses vara en ideal gas med M = 29 kg/kmol och x = 1,4. Beräkna kompressorns isentropiska verkningsgrad.",
     "Lösning": "76,8%",
