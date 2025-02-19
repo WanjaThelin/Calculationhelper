@@ -1,0 +1,83 @@
+[
+
+  {
+    "id": 13,
+    "title": "51Ö a) Isotermiskt",
+    "Uppgift": "Beräkna värmeutbytet (qr), tekniska arbetet (Etr), sluttemperatur och volymitet...",
+    "Lösning": {
+      "qr": "-174,8 kJ/kg",
+      "Etr": "-174,8 kJ/kg",
+      "Temperatur (T₂)": "20 °C",
+      "Volymitet (v₂)": "0,105 m³/kg"
+    },
+    "Tips": [
+      "Vid isoterm process är temperatur konstant: T₂ = T₁ = 293,15 K.",
+      "Använd gaslagen för volymitet: v₂ = (p₁/p₂) × v₁ ",
+      "Tekniska arbetet: ekvation 4.2 i FS",
+      "Värmeutbytet qr = Etr"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "b) Isentropiskt",
+    "Uppgift": "Beräkna värmeutbytet...",
+    "Lösning": {
+      "qr": "0 kJ/kg",
+      "Etr": "-238,7 kJ/kg",
+      "Temperatur (T₂)": "257,9 °C",
+      "Volymitet (v₂)": "0,19 m³/kg"
+    },
+    "Tips": [
+      "T från ekvation 4.12 i FS",
+      "Volymitet: v₂ = RT₂/p₂",
+	  "cp från ekvation 3.24 i FS"
+      "Tekniska arbetet ekvation 4.15 i FS",
+      "Inget värmeutbyte (qr = 0) vid isentrop process."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "c) Polytropiskt (n=1,3)",
+    "Uppgift": "Beräkna värmeutbytet o.s.v...",
+    "Lösning": {
+      "qr": "-43,1 kJ/kg",
+      "Etr": "-224,3 kJ/kg",
+      "Temperatur (T₂)": "200,5 °C",
+      "Volymitet (v₂)": "0,17 m³/kg"
+    },
+    "Tips": [
+      "T från ekvation 4.17 i FS",
+      "Volymitet: v₂ = RT₂/p₂",
+      "Tekniska arbetet från ekvation 4.20 i FS",
+	  "cv från ekvation 3.25 i FS"
+      "qr från ekv. 4.21 i FS."
+    ]
+  }
+  {
+    "id": 16,
+    "title": "53",
+    "Uppgift": "Bestäm mellantryck (pm) och minimala effektbehov för tvåstegs isentropisk kompression med interkylning. Ursprungstryck 1 bar, sluttryck 10 bar, massflöde 5 kg/s, luft (κ=1,4, M=29 kg/kmol).",
+    "Lösning": {
+      "Mellantryck (pm)": "3,16 bar",
+      "Minsta effektbehov": "1,15 MW"
+    },
+    "Tips": [
+      "Optimalt mellantryck ges av geometriskt medelvärde: pm = √(p₁·p₂)",
+      "Beräkna specifikt tekniskt arbete med 4.15 i FS.",
+      "Total specifik arbete: w_total = 2·w (två steg med samma tryckförhållande).",
+      "Effektbehov: P = massflöde·w_total."
+    ]
+  }
+  {
+    "id": 16,
+    "title": "56",
+    "Uppgift": "En kompressor levererar luftflödet 0,2 kg/s. Luftens tillstånd före kompressorn är 20 °C och 1 bar och tillståndet efter kompressorn är 230 °C och 8 bar. Från kompressorn bortförs värmeeffekten 20 kW. Luften kan anses vara en ideal gas med M = 29 kg/kmol och x = 1,4. Beräkna kompressorns isentropiska verkningsgrad.",
+    "Lösning": "76,8%",
+    "Tips": [
+      "Isentropisk verkningsgrad: η = (h2s - h1) / (verkligt arbete)",
+      "Beräkna T2s med FS 4.12",
+      "Beräkna cp med FS 3.24",
+      "Verkligt specifikt arbete: e_verkligt = (h2_verklig - h1) + Q/massflöde"
+    ]
+  }
+]
