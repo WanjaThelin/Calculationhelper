@@ -1,0 +1,175 @@
+[
+
+  {
+    "id": 1,
+    "title": "59",
+    "Uppgift": "Värmefaktorn...",
+    "Lösning": "3,73",
+    "Tips": [
+      "Carnotverkningsgraden  FS4.24.",
+      "Vi delar den med 2",
+      "COP1=COP2+1 enligt FS4.25",
+      "Värmeutbytet qr = Etr"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "60a",
+    "Uppgift": "a",
+    "Lösning": "36,9%",
+    "Tips": [
+      "Carnotverkningsgraden från FS 4.22",
+      "Temperaturskillnaden uppstår vid den isentropa expansionen",
+	  "T2 från FS 4.13"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "60b",
+    "Uppgift": ".",
+    "Lösning": ,
+    "Tips": [
+      "Börja med tillförd värme enl. FS 4.2",
+      "n=1-|qut|/qin",
+      "qut=qin*(1-n)"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "60c",
+    "Uppgift": "cykeleffekt",
+    "Lösning": "1,6kW/liter",
+    "Tips": [
+      "Slagvolymen är vd-vb",
+      "Gaslagen för volymiteten",
+      "Arbete=n*qin",
+      "1000rpm är 1000/60 varv per sekund."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "61",
+    "Uppgift": "Patent.",
+    "Lösning": "nej",
+    "Tips": [
+      "Carnotverkningsgraden via FS 4.22",
+      "Om verkningsgraden är högre än Carnotverkningsgraden är det något fuffens på gång"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "62a",
+    "Uppgift": "Patent.",
+    "Lösning": "12264kWh/år",
+    "Tips": [
+      "Carnotverkningsgraden för värmepump från FS 4.23",
+      "Elbehov = värmebehov/COP1",
+	  "besparing=20000kWh-Elbehov"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "62b",
+    "Uppgift": "Patent.",
+    "Lösning": "15943 kr/år",
+    "Tips": [
+	  "besparing*pris"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "63",
+    "Uppgift": "Värmepump för varmvatten.",
+    "Lösning": "2,83kWh",
+    "Tips": [
+	  "COP1=q1/arbete",
+	  "q1=cp*dT",
+	  "COP1=0,4*(T1/(T1-T2))"
+	  "specifikt arbete=integralen av q1*COP1 (integrera över temperaturen)",
+	  "Kom ihåg att T2 är konstant och T1 varierar mellan 10-55 grader",
+	  "Multiplicera med massan och dividera med 3600 för svaret i kWh"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "65a",
+    "Uppgift": "luftkompressor arbetet.",
+    "Lösning": "105.5 kNm/kg",
+    "Tips": [
+	  "Använd energiekvationen",
+	  "cp från FS 3.25"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "65b",
+    "Uppgift": "luftkompressor trycket.",
+    "Lösning": "2,92 bar",
+    "Tips": [
+	  "Högsta tryck får vi utan förluster",
+	  "Sortera om FS.4.12"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "66a",
+    "Uppgift": "tekniskt arbete i öppet system.",
+    "Lösning": "142 kNm/kg",
+    "Tips": [
+	  "FS 4.15 för isentropa arbetet",
+	  "cp från FS 3.25",
+	  "Isobara arbetet är 0."
+	  
+    ]
+  },
+  {
+    "id": 12,
+    "title": "66b",
+    "Uppgift": "tekniskt arbete i öppet system.",
+    "Lösning": "274 kNm/kg",
+    "Tips": [
+	  "FS 4.15 för isentropa arbetet",
+	  "Kom ihåg att gasen värms innan expansionen.",
+	  "Temperaturen innan expansionen fås av FS 4.12",
+	  "Isobara arbetet är 0."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "67a",
+    "Uppgift": "exergi i slutet system",
+    "Lösning": "274 kNm/kg",
+    "Tips": [
+	  "Exergi för slutet system enligt FS 5.16",
+	  "delta u enligt FS. 3.13",
+	  "Gaslagen ger v=RT/P",
+	  "delta s från FS. 5.3"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "67b",
+    "Uppgift": "exergi i öppet system",
+    "Lösning": "274 kNm/kg",
+    "Tips": [
+	  "Exergi för slutet system enligt FS 5.15",
+	  "delta h enligt FS. 3.14",
+	  "delta s från FS. 5.3"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "70",
+    "Uppgift": "Arbetskrävande carnotprocess",
+    "Lösning": "40,8kNm",
+    "Tips": [
+	  "Arbetet kan fås från FS. 2.19. Vi behöver alltså COP1 och |q1|",
+	  "Carnotprocess så COP1 beskrivs av FS. 4.23",
+	  "Titta på diagrammet för carnotprocessen för att hitta |q1|",
+	  "Det är alltså en isotermisk expansion vid 350 C",
+	  "q1 enligt FS 4.2",
+	  "p1/p2=v1/v2=1/4 enligt uppgiften",
+	  "För att få q positivt får vi ta ln(4) istället eller bara byta tecken..."
+    ]
+  }
+]
