@@ -84,7 +84,7 @@
     "Tips": [
 	  "COP1=q1/arbete",
 	  "q1=cp*dT",
-	  "COP1=0,4*(T1/(T1-T2))"
+	  "COP1=0,4*(T1/(T1-T2))",
 	  "specifikt arbete=integralen av q1*COP1 (integrera över temperaturen)",
 	  "Kom ihåg att T2 är konstant och T1 varierar mellan 10-55 grader",
 	  "Multiplicera med massan och dividera med 3600 för svaret i kWh"
