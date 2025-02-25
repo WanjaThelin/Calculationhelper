@@ -15,7 +15,7 @@
   {
     "id": 2,
     "title": "60a",
-    "Uppgift": "a",
+    "Uppgift": "Carnotcykel termisk verkningsgrad",
     "Lösning": "36,9%",
     "Tips": [
       "Carnotverkningsgraden från FS 4.22",
@@ -26,8 +26,8 @@
   {
     "id": 3,
     "title": "60b",
-    "Uppgift": ".",
-    "Lösning": ,
+    "Uppgift": "värme per massenhet",
+    "Lösning": "",
     "Tips": [
       "Börja med tillförd värme enl. FS 4.2",
       "n=1-|qut|/qin",
