@@ -1,0 +1,56 @@
+[
+
+  {
+    "id": 1,
+    "title": "165a",
+    "Uppgift": "Temperatur på ytan...",
+    "Lösning": "18,75 resp 13,75 C",
+    "Tips": [
+      "Sortera om  FS 11.2 för att få temperaturskillnaden.",
+      "Vi har alfa-värdet men saknar Q/A",
+      "Kom ihåg att värmeöverföringen måste vara samma genom hela väggen",
+      "Sortera om FS 11.32 för att få Q/A",
+	  "Sätt in Q/A i första ekvationen för att få temperaturskillnaden",
+	  "Temperaturen på väggen är inomhustemperaturen minus din beräknade temperaturskillnad",
+	  "Samma sak gäller fönstret."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "165b",
+    "Uppgift": "Värmeflödet...",
+    "Lösning": "10 resp 50 W/m2",
+    "Tips": [
+      "Du löste redan ut detta i a-uppgiften"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "173a",
+    "Uppgift": "Motströms...",
+    "Lösning": "ca 43,7 C",
+    "Tips": [
+      "tut=tin+n*(total temperaturskillnad)",
+      "n enligt FS 11.28",
+      "X enligt FS 11.29",
+      "Y enligt FS 11.30",
+	  "W enligt FS 11.25 & 11.26",
+	  "cp enligt s.48 i FS. Välj ett ungefärligt värde för din temperatur.",
+	  "Välj den kalla sidan som 1, annars får du ta n2 från FS. 11.27"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "173b",
+    "Uppgift": "Medströms...",
+    "Lösning": "38,1 C",
+    "Tips": [
+      "tut=tin+n*(total temperaturskillnad)",
+      "n enligt FS 11.31",
+      "X enligt FS 11.29",
+      "Y enligt FS 11.30",
+	  "W enligt FS 11.25 & 11.26",
+	  "Välj den kalla sidan som 1, annars får du ta n2 från FS. 11.27"
+    ]
+  }
+]
